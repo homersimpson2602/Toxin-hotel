@@ -1,0 +1,29 @@
+
+
+extends ../layout/ui_kit
+
+block content
+  .myblock
+  .mypage__myelem my elemenet on my page
+  .nav
+    +navLink('#', 'Home', true)
+    +navLink('#', 'About Us')
+    +navLink('#', 'Services')
+    +navLink('#', 'Careers')
+    +navLink('#', 'News')
+    +navLink('#', 'Documentation')
+  .card
+    .pick-room
+      h1 Найдём номера под ваши желания Hello my friend рp
+      form(action="")
+        label(for="arrivalDate") прибытие
+          input(type="date" id="arrivalDate")
+        label(for="checkOutDate") выезд
+          input(type="date" id="checkOutDate")
+        label(for="guests") гости Hello my friend
+          select()
+            option(value="1") 1
+            option(value="2") 2
+            option(value="3") 3
+            option(value="4") 4
+        input(type="submit" value="подобрать номер") 

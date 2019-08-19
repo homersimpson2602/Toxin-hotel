@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+
+    &__link {
+      color: $defaultColor50;
+      font-size: $mainFontSize;
+      margin: 0 30px;
+
+        &_first {
+          color: $defaultColor75;
+          font-weight: bold;
+        }
+    }
+}

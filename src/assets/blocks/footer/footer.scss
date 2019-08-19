@@ -1,0 +1,16 @@
+// footer style
+.my-block {
+    background-color: $default-color5;
+    
+    &:hover {
+        background-color: #fff;
+    }
+    &__my-elem {
+        color: $green;
+        
+        &_my-mod {
+            font-size: 1.2rem;
+        }
+    }
+    
+}
